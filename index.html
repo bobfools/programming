@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>차석훈의 홈페이지</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f3e8ff; /* 연보라 배경 */
+            color: #2d0033; /* 어두운 보라 텍스트 */
+        }
+
+        header, footer {
+            background-color: #6a0dad; /* 진한 보라 */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #ffffff; /* 흰색 배경 유지 */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        figure {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        figcaption {
+            font-size: 0.9em;
+            color: #663399; /* 보라색 텍스트 */
+            margin-top: 5px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #8000ff; /* 보라색 링크 */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #a64dff; /* 중간톤 보라 버튼 */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #7b2cbf; /* 더 진한 보라 hover */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>안녕하세요! 차석훈입니다.</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>본문 내용</h2>
+            <p>이 페이지는 HTML5 시맨틱 태그를 사용하여 구조화되었습니다. 
+               <code>header</code>, <code>main</code>, <code>footer</code>, <code>figure</code>, <code>figcaption</code> 태그를 통해 문서의 의미를 명확하게 나타냅니다.</p>
+            <p>나의 최애 반려동물 뽀야를 소개할께요!<br>
+우리 뽀야 너무 귀엽죠? 미니비숑이라 아기같이 작아요!</p>
+        </section>
+
+        <figure>
+            <img src="뽀야.jpg" alt="이미지">
+            <figcaption>우리집 강아지 예쁜 '뽀야'입니다.<br>
+비숑, 2kg, 3살, 생일(6월 21일)</figcaption>
+        </figure>
+
+        <section>
+            <h2>Hi. there</h2>
+            <p>아래단추를 클릭해주세요.</p>
+            <button onclick="sayHello()">클릭해서 인사 받기</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>이메일: <a href="mailto:bobfools@naver.com">bobfools@naver.com</a></p>
+        <p>포트폴리오: <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">나의 깃허브 포트폴리오</a></p>
+    </footer>
+
+    <script>
+        function sayHello() {
+            alert("안녕하세요, 차석훈님 웹페이지에 오신 것을 환영합니다!");
+        }
+    </script>
+
+</body>
+</html>
